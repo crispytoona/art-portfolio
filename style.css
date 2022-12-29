@@ -4,13 +4,24 @@ body {
     font-family: Arial, Helvetica, sans-serif
   }
 
-nav {
+section {
+    margin-left: 10px;
+    text-align: left;
+    font-size: 60px;
+    height: 500px;
+}
+
+  nav {
    display: flex;
    justify-content: space-between; 
    background-color: white;
-   font-size: 40px;
    align-content: right;
    color: black;
+   height: 100px;
+}
+
+section.nav {
+    height: 100px;
 }
 
 .hello {
@@ -24,11 +35,17 @@ ul {
     padding: 30px 0;
 }
 
-.h1-text {
-    margin-left: 10px;
-    background-color: pink;
+.header div {
+    margin-left: 20px;
     text-align: left;
-    height: 500px;
+    font-size: 60px;
+    background-color: pink;  
+}
+
+.header-text p {
+    font-size: 24px;
+    font-style: italic;
+    background-color: pink;
 }
 
 ul {
@@ -41,4 +58,13 @@ ul {
 li {
     width: 175px;
 
+}
+
+
+.artwork {
+    background-color: white;
+}
+
+.sketchbook {
+    background-color: #A9A6F6;
 }
